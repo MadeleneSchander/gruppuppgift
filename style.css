@@ -1,31 +1,85 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
-
-html, body, .wrap {
-	height: 100%;
-}
 
 body {
-	background: black;
-	overflow: hidden;
-	color: white;
-	font-family: Open sans;
-	
+ font-family: Helvetica, sans-serif;
+ font-size: 22px;
+ height: 100%;
+ background: url("ímages/66.png");
+ background-position: right top;
+ background-repeat: no-repeat;
+ padding: 0;
+ padding-left: 100px; 
+ margin: 0;
+  }
+
+.header {
+	height: 550px;
+}
+h1 { 
+ 	text-align: left;
+ 	margin-top: 200px;
+ 	font-size: 50px;
 }
 
-.wrap {
-	max-width: 800px;
-	margin: 0 auto;
+h2 { 
+    text-align: left;
+    margin-top: 100px;
+	font-size: 30px;
 }
 
-h1 {
-	position: relative;
-	perspective: 500px;
-	top: 50%;
-	padding: 0 20px;
-	transform: translateY(-50%);
-	font-weight: 300;
+h3 { 
+    text-align: left;
+	font-size: 20px;
 }
 
-h1 span {
-	opacity: 0;
-}
+
+  .info {
+	  width: 600px;
+	  margin-top: 100px;
+  }
+  .containerGIF {
+	margin-top: 100px;
+	position: center;
+  }
+
+  /*Tobias kod:*/
+  .ml2 {
+	font-weight: 900;
+	font-size: 3.5em;
+  }
+  
+  .ml2 .letter {
+	display: inline-block;
+	line-height: 1em;
+  }
+
+  .column {  
+	padding-left: 20px;
+	border: none;
+
+  }
+  .column p {
+	  width: 500px;
+  }
+
+  .row {
+	margin-top: 150px;
+	display:flex;
+	justify-content: space-evenly;
+  }
+   
+   .row:after {
+	content: "";
+	display: inline-block;
+	clear: both;
+   }
+
+   .footer {
+
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0; 
+	padding: 1rem;
+	background-color: black;
+
+   }
